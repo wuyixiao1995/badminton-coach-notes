@@ -1,0 +1,48 @@
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 音视频 / 图片（体积大，不入库）----
+*.mp4
+*.mkv
+*.avi
+*.rmvb
+*.flv
+*.mov
+*.wmv
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.aac
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# ---- 模型 / 二进制 ----
+*.gguf
+*.bin
+*.onnx
+*.pt
+*.safetensors
+*.exe
+*.tar.gz
+*.zip
+
+# ---- 流水线运行时产物 ----
+engine.log
+progress.json
+*.log
+_pipeline_output/
+
+# ---- 临时 ----
+*.tmp
+*.bak
+~$*
+_scan_remote.py
+_scan_liyuxuan.py
+_diff_check.py
+_export_notes.py
